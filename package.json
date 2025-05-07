@@ -1,9 +1,9 @@
 {
-  "name": "yoolink.github.io",
+  "name": "yoolink-dev.github.io",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tpps88206.github.io/yoolink.github.io",
+  "homepage": "https://yoolink-dev.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
