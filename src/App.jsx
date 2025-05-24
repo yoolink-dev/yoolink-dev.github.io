@@ -142,7 +142,7 @@ export default function LandingPage() {
                     transition={{ delay: 0.7, duration: 0.6 }}
                     className="mt-4"
                 >
-                    <p>LINE ID: <span className="font-mono">@224dwfgd</span></p>
+                    <p>LINE ID: <span className="font-mono">@yool.ink</span></p>
                     <img
                         src="https://qr-official.line.me/gs/M_224dwfgd_GW.png?oat_content=qr"
                         alt="LINE QR Code"
