@@ -14,3 +14,36 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.stars {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  background: url('https://www.transparenttextures.com/patterns/tiny-grid.png');
+  opacity: 0.1;
+}
+.layer1 {
+  animation: moveStars1 120s linear infinite;
+}
+.layer2 {
+  animation: moveStars2 200s linear infinite;
+}
+@keyframes moveStars1 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-1000px, -500px);
+  }
+}
+@keyframes moveStars2 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(500px, -1000px);
+  }
+}
+.blur-3xl {
+  filter: blur(72px);
+}
